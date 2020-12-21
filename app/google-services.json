@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420215426073",
+    "firebase_url": "https://corona-express-dubd.firebaseio.com",
+    "project_id": "corona-express-dubd",
+    "storage_bucket": "corona-express-dubd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420215426073:android:6e2ccde6dc34b728e06e88",
+        "android_client_info": {
+          "package_name": "unknowns.developer.coronaexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420215426073-rlv9mscgkg8a9pkeo50hvkuugmjved12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unknowns.developer.coronaexpress",
+            "certificate_hash": "8a0c614e2377c31dbfe569f00f32e63868905548"
+          }
+        },
+        {
+          "client_id": "420215426073-7nqo6135l3ptrcuu2o82uc6h1vikfggp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5JN1PtBtstB26xGSiLTCGxQbHXfHbW40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420215426073-7nqo6135l3ptrcuu2o82uc6h1vikfggp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

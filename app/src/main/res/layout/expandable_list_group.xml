@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_expndbl_list_header">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:text="How to Wear Masks ?"
+        android:textSize="20sp"
+        android:fontFamily="@font/telenor_regular"
+        android:textColor="#C5E16A"
+        android:padding="20dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

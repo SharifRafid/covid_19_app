@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_countrywise_bg"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/imageViewbgCountryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/country_name_bg" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/countryNameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/imageViewCountryFlag"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home_button_nav"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/bd_text_stat_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANGLADESH"
+            android:gravity="center"
+            android:fontFamily="@font/telenor_regular"
+            android:textSize="18sp"
+            android:textColor="#577CE3"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/countryNameContainer"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/total_cases_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/total_cases_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/total_cases_img"
+                app:layout_constraintTop_toTopOf="@+id/total_cases_img"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/total_cases_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_cases_str"
+                android:textColor="#E97977"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/total_cases_img"
+                app:layout_constraintTop_toTopOf="@+id/total_cases_img"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/today_cases_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/today_cases_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2322"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/today_cases_img"
+                app:layout_constraintTop_toTopOf="@+id/today_cases_img"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/today_cases_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todays_cases_str"
+                android:textColor="#AC1B1F"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/today_cases_img"
+                app:layout_constraintTop_toTopOf="@+id/today_cases_img"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/deaths_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/deaths_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/deaths_text_background"
+                app:layout_constraintTop_toTopOf="@+id/deaths_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/deaths_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deaths_str"
+                android:textColor="#FF2121"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/deaths_text_background"
+                app:layout_constraintTop_toTopOf="@+id/deaths_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_second_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_layout_first_row"
+        android:gravity="center_horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/today_deaths_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/today_deaths_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/today_deaths_text_background"
+                app:layout_constraintTop_toTopOf="@+id/today_deaths_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/today_deaths_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todays_deaths_str"
+                android:textColor="#FA413E"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/today_deaths_text_background"
+                app:layout_constraintTop_toTopOf="@+id/today_deaths_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/recovered_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/recovered_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2322"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/recovered_text_background"
+                app:layout_constraintTop_toTopOf="@+id/recovered_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/recovered_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recovered_str"
+                android:textColor="#72DE3C"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/recovered_text_background"
+                app:layout_constraintTop_toTopOf="@+id/recovered_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/active_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/active_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/active_text_background"
+                app:layout_constraintTop_toTopOf="@+id/active_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/active_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/active_cases_str"
+                android:textColor="#FF511B"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/active_text_background"
+                app:layout_constraintTop_toTopOf="@+id/active_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_third_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_layout_second_row"
+        android:gravity="center_horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/critical_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/critical_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/critical_text_background"
+                app:layout_constraintTop_toTopOf="@+id/critical_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/critical_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Critical Cases"
+                android:textColor="#F83C39"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/critical_text_background"
+                app:layout_constraintTop_toTopOf="@+id/critical_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/tests_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tests_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2322"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/tests_text_background"
+                app:layout_constraintTop_toTopOf="@+id/tests_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/tests_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_tests_str"
+                android:textColor="#8CA325"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/tests_text_background"
+                app:layout_constraintTop_toTopOf="@+id/tests_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_fourth_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_layout_third_row"
+        android:gravity="center_horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/cases_mil_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cases_mil_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/cases_mil_text_background"
+                app:layout_constraintTop_toTopOf="@+id/cases_mil_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/cases_mil_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cases_million_str"
+                android:textColor="#AE4BBF"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/cases_mil_text_background"
+                app:layout_constraintTop_toTopOf="@+id/cases_mil_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/deaths_mill_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/deaths_mill_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2322"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/deaths_mill_text_background"
+                app:layout_constraintTop_toTopOf="@+id/deaths_mill_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/deaths_mill_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deaths_million_str"
+                android:textColor="#AE4BBF"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/deaths_mill_text_background"
+                app:layout_constraintTop_toTopOf="@+id/deaths_mill_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/tests_mill_text_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infected_text_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tests_mill_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="232"
+                android:textColor="#1388EF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/tests_mill_text_background"
+                app:layout_constraintTop_toTopOf="@+id/tests_mill_text_background"
+                app:layout_constraintVertical_bias="0.200"
+                android:textSize="16sp"
+                android:fontFamily="@font/telenor_regular"/>
+
+            <TextView
+                android:id="@+id/tests_mill_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tests_million_str"
+                android:textColor="#AE4BBF"
+                android:textSize="12sp"
+                android:fontFamily="@font/telenor_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/tests_mill_text_background"
+                app:layout_constraintTop_toTopOf="@+id/tests_mill_text_background"
+                app:layout_constraintVertical_bias="0.700" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</RelativeLayout>

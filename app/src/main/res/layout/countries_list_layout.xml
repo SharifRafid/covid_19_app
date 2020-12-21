@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/health_survey_home_bg">
+
+    <TextView
+        android:id="@+id/bd_text_stat_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_text_main"
+        android:text="BANGLADESH"
+        android:gravity="center"
+        android:fontFamily="@font/telenor_regular"
+        android:textSize="18sp"
+        android:textColor="#FFD6D5"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_bd_infected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/bd_text_stat_heading"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:foregroundGravity="center">
+
+        <ImageView
+            android:id="@+id/bd_infected_text_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/infected_text_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bd_infected_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13232"
+            android:textColor="#1388EF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/bd_infected_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_infected_text_background"
+            app:layout_constraintVertical_bias="0.200"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"/>
+
+        <TextView
+            android:id="@+id/bd_infected_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/infected_text"
+            android:textColor="#E97977"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="@+id/bd_infected_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_infected_text_background"
+            app:layout_constraintVertical_bias="0.700" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:foregroundGravity="center">
+
+        <ImageView
+            android:id="@+id/bd_cured_text_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/infected_text_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bd_cured_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2322"
+            android:textColor="#1388EF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/bd_cured_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_cured_text_background"
+            app:layout_constraintVertical_bias="0.200"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"/>
+
+        <TextView
+            android:id="@+id/bd_cured_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cured_text"
+            android:textColor="#72DE3C"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="@+id/bd_cured_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_cured_text_background"
+            app:layout_constraintVertical_bias="0.700" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:foregroundGravity="center">
+
+        <ImageView
+            android:id="@+id/bd_dead_text_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/infected_text_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bd_dead_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="232"
+            android:textColor="#1388EF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/bd_dead_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_dead_text_background"
+            app:layout_constraintVertical_bias="0.200"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"/>
+
+        <TextView
+            android:id="@+id/bd_dead_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dead_text"
+            android:textColor="#FF2121"
+            android:textSize="16sp"
+            android:fontFamily="@font/telenor_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="@+id/bd_dead_text_background"
+            app:layout_constraintTop_toTopOf="@+id/bd_dead_text_background"
+            app:layout_constraintVertical_bias="0.700" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</RelativeLayout>

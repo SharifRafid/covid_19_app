@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cov Aid BD</string>
+    <string name="infected_text">আক্রান্ত</string>
+    <string name="cured_text">সুস্থ</string>
+    <string name="dead_text">মৃত</string>
+    <string name="latest_news_text">প্যারেন্টিং টিপস</string>
+    <string name="learn_about_parenting_during_this_situation">এই পরিস্থিতি চলাকালীন সন্তান পালন সম্পর্কে শিখুন</string>
+    <string name="are_you_infected_text"> আপনি কি আক্রান্ত</string>
+    <string name="take_a_health_survey_text">সাস্থ পরামর্শ গ্রহণ করুন</string>
+    <string name="total_cases_str">মোট আক্রান্ত</string>
+    <string name="todays_cases_str">আজকে আক্রান্ত</string>
+    <string name="deaths_str">মোট মৃত্যু</string>
+    <string name="todays_deaths_str">আজকে মৃত্যু</string>
+    <string name="recovered_str">সুস্থ</string>
+    <string name="active_cases_str">বর্তমান আক্রান্ত</string>
+    <string name="total_tests_str">মোট পরিক্ষা</string>
+    <string name="cases_million_str">আক্রান্ত/১০ লক্ষে</string>
+    <string name="deaths_million_str">মৃত/১০ লক্ষে</string>
+    <string name="tests_million_str">পরীক্ষা/১০ লক্ষে</string>
+    <string name="app_settings_str">অ্যাপ সেটিংস</string>
+    <string name="about_corona">করোনা সম্পর্কে</string>
+    <string name="a_product_of_swad_express_str"> স্বয়াদ এক্সপ্রেসের একটি পন্য</string>
+
+    <string name="dialog_permission_title">পারমিশন প্র্যোযন</string>
+    <string name="dialog_permission_body">অ্যাপ থেকে ডাইরেক্ট কল করার জন্য এই পারমিশঅন টা প্রয়োজন । তাই পরবর্তী মেসেজে অ্যালাও করে দিন।</string>
+    <string name="dialog_permission_ok">ঠিক আছে</string>
+    <string name="dialog_permission_no">না, থাক</string>
+
+    <string name="dialog_internet_connection_title"> ইন্টারনেট নেই ..... :(</string>
+    <string name="dialog_internet_connection_body"> আপনার ফোনে ইন্টারনেট কানেকশন নেই, তাই সরাসরি অ্যাপ থেকে সঠিক তথ্য পাবেন না....</string>
+    <string name="dialog_internet_connection_load_no_internet"> ইন্টারনেট ছাড়াই ঢুকুন</string>
+    <string name="dialog_internet_connection_exit"> অ্যাপ বন্ধ করুন</string>
+
+    <string name="help_lines_str">হেল্প লাইন (বাংলাদেশ)</string>
+    <string name="hotline_n_333_str">হট লাইন \n  ৩৩৩ </string>
+    <string name="national_call_center_n_16263_str">জাতীয় কল কেন্দ্র \n ১৬২৬৩ </string>
+    <string name="health_portal_n_10655_str">সাস্থ্য পোর্টাল \n ১০৬৫৫ </string>
+    <string name="iedcr_n_09611677777_str"> আই ই ডি সি আর \n ৯৬১১৬৭৭৭৭৭ </string>
+    <string name="specialist_health_line_n_109_str">স্পেশালিস্ট হেল্প লাইন \n ১০৯ </string>
+
+    <string name="how_to_put_on_a_mask_title">মাস্ক পরার সঠিক নিয়ম</string>
+    <string name="how_to_put_on_a_mask_1">মাস্ক পরার আগে , হাত অ্যালকোহল নির্ভর হ্যান্ড ওয়াশ অথবা সাবান দিয়ে হাত ধুয়ে নিন</string>
+    <string name="how_to_put_on_a_mask_2"> আপনার মুখ এবং নাক মাস্ক দিয়ে ঢাকুন
+    এবং মাস্ক ও আপনার মুখের মধ্যে কোনো ফাকা রাখবেন না । এবং মাস্ক পরার পর তা হাত দিয়ে স্পর্শ করবেন না । স্পর্শ করলেও তারপর হাত সাবান বা স্যানিটাইজার দিয়ে পরিষ্কার করে নিবেন।</string>
+    <string name="how_to_put_on_a_mask_3"> মাস্ক নষ্ট হয়ে গেলে তা সাথে সাথে ফেলে দিবেন, ওয়ান টাইম মাস্ক বার বার ব্যবহার করবেন না</string>
+    <string name="how_to_put_on_a_mask_4"> মাস্ক খোলার সময় পেছনের দিক থেকে খুলবেন। মাস্কের
+        সামনে হাত দিবেন না। এবং মাস্ককে বদ্ধ একটা ময়লার বাক্সে ফেলে দিবেন । অতঃপর হাত ধুয়ে ফেলবেন।</string>
+
+    <string name="child_aware_heading"> কিভাবে ভালো মনোভাবে থাকবেন </string>
+    <string name="child_aware_body_1">সন্তানদের জালাতনের সময় নিজেদের ঠিক রাখা আসলেই কষ্টকর। 
+    	অধিকাংশ সময়ই আমরা "এটা কোরোনা ওটা কোরোনা " বলে সন্তানদের চুপ করিয়ে দেই বা ধমকাই । তবে শিশুরা বেশির ভাগ সময় সেটাই করে 
+    	যেটা আমরা ওদের বুঝিয়ে বলি এবং ভালো কাজের জন্য বাহবা দেই। ধমকানো থেকে ভালোভাবে শিশুদের বুঝিয়ে বলুন। 
+    	
+    	সবসময় শিশুদের সাথে অনুরোধ বা আবেগের সুরে কথা বলবেন , ধমকের সুরে কথা বললে বা রাগের মাথায় কথা বললে তা অধিকাংশ সময়ই 
+    	ভালো ফল দিবে না।
+    	
+    	ভালো কাজের জন্য আপনার শিশুকে বাহবা দিন, যদিও তারা সেটা প্রকাশ করবেনা তবুও ফল সরুপ আপনি দেখবেন তারা সে ভালো কাজটা
+    	পুনরায় করছে। এছাড়াও বাহবা দিলে তারা এ বিষয়ে নিশ্চিত হবে যে তার কাজ গুলো আপনি খেয়াল করেন ।
+    	
+    	আপনার শিশুর সাথে উচ্চ স্বরে বা রাগান্বিত হয়ে কথা বলবেন না, এতে আপনার এবং তার দুজনেরই মানসিক সমস্যা বাড়বে। তাদেরকে ভালো
+    	করে এবং আদরের সাথে তাদের নাম ধরে ডাকুন এবং শান্ত ভাবে কথা বলুন।
+    	
+    	</string>
+    <string name="child_aware_body_2">
+    	
+    	বাস্তবে ভেবে দেখুনঃ
+    	আপনার শিশু কি আসলেই সে কাজ করবে বা করতে পারবে যা আপনি ওকে করতে বলছেন?
+    	একটা শিশুর পক্ষে সারা দিন ঘরের মধ্যে চুপ থাকা সম্ভব না, তবে তারা অবশ্যই কিছু নির্দিষ্ট সময়ে চুপ থাকতে পারবে যখন আপনি বলবেন
+    	যেমন কোনো ফোন কল বা কাজের সময়।
+    	
+    	আপনার শিশুদের সামাজিক যোগাযোগ মাধ্যমে সংযুক্ত করে দিন এবং তার বন্ধদের সাথে যোগাযোগের সুযোগ রাখুন । অথবা আপনিও তার সাথে 
+    	বিভিন্ন ধরণের কর্মসুচি পালন করতে 
+    
+    </string>
+
+    <string name="parenting_stay_aware_heading"> সন্তান লালন পালনঃ সতর্ক থাকা  </string>
+    <string name="parenting_stay_aware_body_1">কটি নমনীয় তবে ধারাবাহিক দৈনিক রুটিন তৈরি করুন \ n
+        আপনার এবং আপনার বাচ্চাদের জন্য একটি সময়সূচী তৈরি করুন যাতে কাঠামোগত ক্রিয়াকলাপের পাশাপাশি ফ্রি সময়ের জন্য সময় থাকে। \n
+        এটি বাচ্চাদের আরও সুরক্ষিত এবং আরও ভাল আচরণ অনুভব করতে সহায়তা করতে পারে। \n
+        শিশু বা কিশোর-কিশোরীরা দিনের রুটিন পরিকল্পনা করতে সহায়তা করতে পারে - \n
+        স্কুলের সময়সূচি তৈরির মতো। বাচ্চারা এটিকে তৈরি করতে সহায়তা করলে এটি আরও ভালভাবে অনুসরণ করবে। \n
+        প্রতিটি দিন অনুশীলন অন্তর্ভুক্ত করুন - এটি স্ট্রেস এবং বাড়িতে প্রচুর শক্তিযুক্ত বাচ্চাদের সাহায্য করে। \n
+        আপনি আপনার সন্তানের আচরণের একটি মডেল
+        যদি আপনি নিরাপদ দূরত্বে রাখেন এবং নিজেকে স্বাস্থ্যকর রাখেন অনুশীলন করেন এবং অন্যকে সহানুভূতির সাথে আচরণ করেন, \n
+        বিশেষত যারা অসুস্থ বা দুর্বল - আপনার বাচ্চারা এবং কিশোররা আপনার কাছ থেকে শিখবে। \n
+</string>
+    <string name="parenting_stay_aware_body_2">আপনার শিশুকে নিরাপদ দূরত্ব বজায় রাখার বিষয়ে শিক্ষা দিন\nআপনার দেশ যদি ঠিক থাকে তবে বাইরে বাচ্চাদের যেতে দিন।
+        \nআপনি লোকদের সাথে ভাগ করে  চিঠি লিখতে এবং ছবি আঁকতে পারেন। অন্যদের দেখার জন্য এগুলি আপনার বাড়ির বাইরে রাখুন!\nআপনি কীভাবে সুরক্ষিত রাখছেন সে সম্পর্কে কথা বলে আপনি আপনার সন্তানের আশ্বাস দিতে পারেন। তাদের পরামর্শ শুনুন এবং তাদের গুরুত্ব সহকারে নিন।\n\nহ্যান্ড ওয়াশিং এবং হাইজিন মজাদার করুন\nহাত ধোওয়ার জন্য একটি 20-সেকেন্ডের গান করুন। ক্রিয়া যুক্ত করুন! বাচ্চাদের নিয়মিত হাত ধোওয়ার জন্য পয়েন্ট এবং প্রশংসা দিন।\n পুরষ্কার সহ আমরা আমাদের মুখগুলিকে কতবার স্পর্শ করতে পারি তা দেখার জন্য একটি খেলা করুন (আপনি একে অপরের জন্য গণনা করতে পারেন)।\n\nপ্রতিটি দিন শেষে, দিনটি সম্পর্কে এক মিনিট সময় চিন্তা করুন। আপনার বাচ্চাকে তারা যে একটি ইতিবাচক বা মজাদার কাজ করেছে তার সম্পর্কে বলুন। আপনি আজ যা ভাল করেছেন তার জন্য নিজেকে প্রশংসা করুন। আপনি একজন তারকা!</string>
+
+    <string name="parenting_keep_calm_heading">Parenting - Stay Calm </string>
+    <string name="parenting_keep_calm_body_1">
+        COVID-19 PARENTING5
+        Keep Calm and Manage Stress
+
+        You are not alone
+        Millions of people have the same fears as us. Find someone who you can talk to about how you are feeling. Listen to them. Avoid social media that makes you feel panicked.
+
+        Take a break
+        We all need a break sometimes. When your children are asleep, do something fun or relaxing for yourself. Make a list of healthy activities that YOU like to do. You deserve it!
+
+        Listen to your kids
+        Be open and listen to your children. Your children will look to you for support and reassurance. Listen to your children when they share how they are feeling. Accept how they feel and give them comfort.
+</string>
+    <string name="parenting_keep_calm_body_2">Take a Pause
+        1-minute relaxation activity that you can do whenever you are feeling stressed or worried
+        Step 1: Set up •   Find a comfortable sitting position, your feet flat on the floor, your hands resting in your lap. •  Close your eyes if you feel comfortable.
+        Step 2: Think, feel, body •  Ask yourself, “What am I thinking now?” •   Notice your thoughts. Notice if they are negative or positive. •   Notice how you feel emotionally. Notice if your feelings are happy or not. •   Notice how your body feels. Notice anything that hurts or is tense.
+        Step 3: Focus on your breath •  Listen to your breath as it goes in and out. •   You can put a hand on your stomach and feel it rise and fall with each breath. •   You may want to say to yourself “It’s okay. Whatever it is, I am okay.” •  Then just listen to your breath for a while.
+        Step 4: Coming back •   Notice how your whole body feels. •   Listen to the sounds in the room.
+        Step 5: Reflecting •  Think ‘do I feel different at all?’. •   When you are ready, open your eyes.
+
+        Taking a Pause can also be helpful when you find your child is irritating you or has done something wrong. It gives you a chance to be calmer. Even a few deep breaths or connecting with the feeling of the floor beneath can make a difference. You can also Take a Pause with your children!
+    </string>
+
+    <string name="parenting_talking_cov_heading">প্যারেন্টিং - COVID-19 সম্পর্কে কথা বলুন</string>
+    <string name="parenting_talking_cov_body_1">কভিড -১৯ প্যারেন্টিং\n        COVID-19 সম্পর্কে কথা বলছি\n\n        কথা বলতে ইচ্ছুক। তারা ইতিমধ্যে কিছু শুনেছেন। নীরবতা এবং গোপনীয়তা আমাদের বাচ্চাদের সুরক্ষা দেয় না। সততা এবং খোলামেলা কাজ। তারা কতটা বুঝতে পারবে তা ভেবে দেখুন। আপনি তাদের ভাল জানেন।\n\n        খোলামেলা হয়ে শুনুন\n\n        আপনার শিশুকে নির্দ্বিধায় কথা বলার অনুমতি দিন। তাদের খোলামেলা প্রশ্ন জিজ্ঞাসা করুন এবং তারা ইতিমধ্যে জানেন কি তা খুঁজে বের করুন।\n\n        সৎ হও\n        সর্বদা তাদের প্রশ্নের উত্তর সত্যভাবে দিন। আপনার সন্তানের বয়স কত এবং তারা কতটা বুঝতে পারে সে সম্পর্কে চিন্তাভাবনা করুন
+</string>
+    <string name="parenting_talking_cov_body_2">সহায়ক হন\n        \nআপনার শিশু ভীত বা বিভ্রান্ত হতে পারে। তারা কেমন অনুভব করছে তা ভাগ করে নেওয়ার জন্য তাদের স্থান দিন এবং তাদের জন্য আপনি তাদের সাথে আছেন আছেন তা তাদের জানান।\n\nউত্তরগুলি না জানা ঠিক আছে \n        \nএটি বলা ঠিক যে "আমরা জানি না, তবে আমরা এটিতে কাজ করছি; বা আমরা জানি না, ‘তবে আমরা ভাবি’। এটি আপনার সন্তানের সাথে নতুন কিছু শেখার সুযোগ হিসাবে ব্যবহার করুন!\n\n\n\nব্যাখ্যা করুন যে কাউকে দেখতে কেমন, তারা কোথা থেকে এসেছে বা কোন ভাষায় তারা কথা বলছে তার সাথে COVID-19 এর কোনও সম্পর্ক নেই। আপনার শিশুকে বলুন যে আমরা অসুস্থ এবং যারা তাদের যত্ন নিচ্ছে তাদের প্রতি আমরা সহানুভূতিশীল হতে পারি।\n        \nএমন লোকদের গল্পগুলির সন্ধান করুন যারা প্রাদুর্ভাব বন্ধ করতে কাজ করছেন এবং অসুস্থ মানুষের যত্ন নিচ্ছেন
+    </string>
+
+    <string name="parenting_safe_on_internet_heading">Parenting - Safe On Internet</string>
+    <string name="parenting_safe_on_internet_1">Adults targeting children\nfor sexual purposes on\nsocial media, gaming,\n
+        and messaging platforms\nHarmful content – violence,\nmisogyny, xenophobia,\ninciting suicide and self-\n
+        harm, misinformation, etc.\nTeens sharing personal\ninformation and sexual\nphotos or videos of\n
+        themselves\nCyberbullying from\npeers and strangers\n\n\n
+        \nTech fixes to\nprotect your\nchildren online\n\n\nSet up parental controls\nTurn on
+        SafeSearch\non your browser\nSet up strict privacy settings\non online\napps and games\nCover
+        webcams\nwhen not in use\n\n\n
+        \nCreate healthy\nand safe online\nhabits\n\n\nInvolve your child or
+        teen\nin creating family tech\nagreements about healthy\ndevice use\n\n
+        Create device-free spaces\nand times in your house\n(eating, playing,
+        schoolwork,\nand sleeping)\nHelp your child learn how to\nkeep personal
+        information\nprivate, especially from\nstrangers – some people are\nnot who
+        they say they are!\nRemind your children that\nwhat goes online stays\nonline
+        (messag\n\n
+        /\n\nSpend time\nwith your child\nor teen online\n\nExplore websites,
+        social\nmedia, games, and apps\ntogether\nTalk to your teen on how to\nreport
+        inappropriate content\n(see below)\nCommon Sense Media\nhas great advice for apps,
+        \ngames and entertainment for\ndifferent ages\n\n
+</string>
+    <string name="parenting_safe_on_internet_2">Keep your child\nsafe with
+        open\ncommunication\n\n\n\nTell your children that if they\nexperience
+        something online\nthat makes them feel upset,\nuncomfortable, or scared,
+        they\ncan talk to you and you will not\nget mad or punish them\n\n\nBe alert
+        to signs of distress.\nNotice if your child is being\nwithdrawn, upset, secretive,
+        or\nobsessed with online activities\nCreate trusting relationships\nand open
+        communication\nthrough positive support and\nencouragement\nNote that every child
+        is\nunique and may use different\nways to communicate. Take\ntime to adjust your
+        message\nfor your child’s needs. For\nexample, children with learning\ndisabilities,
+        may require\ninformation in simple format
+    </string>
+
+    <string name="parenting_family_budgeting_heading"> প্যারেন্টিংঃ  ফ্যামিলি </string>
+    <string name="parenting_family_budgeting_1">পরিবারের বাজেট তৈরিতে বাচ্চাদের কিশোরদের বাজেট এড করুন \n\nআমরা এখন  কি ব্যয় করবো?\n\n\nএক টুকরো কাগজ নিন (বা পুরানো)\nসংবাদপত্র বা \n        কার্ডবোর্ডের বাক্স)\nএবং একটি কলম\n\n\nসমস্ত কিছুর ছবি আঁকুন\nতুমি এবং তোমার পরিবার\n        টাকা খরচ করা\nপ্রতি মাস\nপ্রতিটি ছবির পাশে লিখুন কত\nপ্রতিটি জিনিস খরচ\nযোগ করুন\n        তোমার কত টাকা আছে\nপ্রতি মাসে ব্যয় করতে\n\n\n\nপ্রয়োজন সম্পর্কে কথা বলুন\nএবং চায়\n\n\nচাহিদা:\n        কোন জিনিস গুরুত্বপূর্ণ\nবা আপনার পরিবারের জন্য থাকতে হবে\nটেকা? (খাবার, সাবান মতো\n        ধোয়া\nহাত, অসুস্থ বা প্রতিবন্ধী পরিবারের প্রয়োজন\nসদস্য)\nচাওয়া: কোন জিনিস ভাল লাগবে\n        আছে\nকিন্তু প্রয়োজনীয় নয়?\nআপনার বাচ্চাদের সাথে  আলোচনা করুন\nকতটুকু ব্যয় করতে পারবেন\n       \n\n\n\n\nআপনার নিজের বাজেট তৈরি করুন\n\nএকটি ব্যাগ পাথর বা যে কোনও কিছুর সন্ধান করুন\n\n        \n\nপরিবার হিসাবে, আপনি কি চান সিদ্ধান্ত নিন\nকি ব্যয়, এবং পাথর রাখুন\nআপনার ছবিতে\n\n        আপনি যদি অল্প পরিমাণে সঞ্চয়ও করতে পারেন\nভবিষ্যতের জন্য, বা জরুরী প্রয়োজনের জন্য \n - এটা দুর্দান্ত\n        \n\nবাজেট হ\'ল আমরা কীভাবে সিদ্ধান্ত নেব\nএমনকি আমাদের অর্থ ব্যয় করবে\n\n\n        বাজেট করা একসাথে বাচ্চাদের সহায়তা করে\nবুঝতে হবে যে আমাদের সকলকে কঠোর করা দরকার\n\n        কঠিন সময়ে সিদ্ধান্ত\n\nএটি পরিবারগুলিকে পর্যাপ্ত পরিমাণে থাকতে সহায়তা করে\n\n        মাস শেষে, এবং কম ধার\n\nখুঁজে নিন যদি সাহায্য আসে\n\n   তুমি পেতে পার\n\nআপনার সরকার\nদিচ্ছে হতে পারে\nঅর্থ, বা খাদ্য\n\n        পরিবারে পার্সেল\nCOVID-19 চলাকালীন\n\nসম্পর্কে জিজ্ঞাসা\nজায়গা কিনা\nআপনার সম্প্রদায়\nসমর্থন দিচ্ছেন
+</string>
+
+    <string name="parenting_family_harmony_heading">প্যারেন্টিং ফ্যামিলি হারমোনি</string>
+    <string name="parenting_family_harmony_1">আমরা আমাদের বাচ্চাদের জন্য মডেল\n\n        আমরা কীভাবে অন্যের সামনে কথা বলি এবং আচরণ করব তা তারা কীভাবে আচরণ করে তার একটি বড় প্রভাব!\n\nপরিবারের সবার সাথে সদয়ভাবে কথা বলার চেষ্টা করুন,\n        প্রাপ্তবয়স্কদের এবং\nশিশু\nপরিবারের প্রাপ্তবয়স্কদের মধ্যে খারাপ যোগাযোগ আমাদের বাচ্চাদের উপর নেতিবাচক প্রভাব ফেলতে পারে\nআমরা যতটা শান্তিপূর্ণভাবে মডেলিংয়ের অনুশীলন করি,\n        স্নেহময়\nআমাদের বাচ্চাদের জন্য সম্পর্ক আরও সুরক্ষিত এবং\nতারা অনুভূত হবে পছন্দলোড ভাগ করুন\nবাচ্চাদের এবং অন্যদের দেখাশোনা করা\nপরিবারের সদস্যরা কঠিন, তবে এটি তখন অনেক সহজ যখন\nদায়িত্ব ভাগ করা হয়|\n\nপরিবারের কাজ, শিশু যত্ন এবং অন্যান্য কাজগুলি ভাগ করে নেওয়ার চেষ্টা করুন\nসমানভাবে পরিবারের সদস্যদের মধ্যে\nঅন্যান্য প্রাপ্তবয়স্কদের সাথে  "চালু রাখার" এবং সময় "বন্ধ" করার জন্য একটি সময়সূচী তৈরি করুন\nআপনার পরিবারে\nআপনি যখন ক্লান্ত বা স্ট্রেস অনুভব করছেন তখন সাহায্যের জন্য জিজ্ঞাসা করা ঠিক\nযাতে আপনি বিরতি নিতে পারেন\n\n\n\nস্ট্রেস লাগছে\nনাকি রাগ?\n\n\nনিজেকে একটি 10-সেকেন্ড বিরাম দিন\n।  বাইরে এবং ভেতরে শ্বাস ফেলুন\nআস্তে আস্তে পাঁচ বার।\n তারপরে চেষ্টা করুন\nএকটি শান্ত উপায়ে প্রতিক্রিয়া জানাতে।\nলক্ষ লক্ষ অভিভাবক এই কথাটি বলেন\nপ্রতি অনেক সাহায্য করে\nযখন আপনি দেখতে পাচ্ছেন তখন একটি ট্রুস কল করুন\nযুক্তিগুলি তৈরি হচ্ছে এবং অন্য ঘরে বা বাইরে\nযদি তুমি পার\n“আমরা যখন থাকব” তে টিপ শিটগুলি দেখুন\nরাগ করুন "এবং" শান্ত থাকুন\nএবং মানসিক চাপ পরিচালনা করুন "\n\n\n\n\n\nভাল জিনিস\nএকসাথে কর\nএকটি পরিবারের মত\n\n\nপরিবারের প্রতিটি সদস্যকে নিতে দিন\nএকটি পুরো পরিবার চয়ন করতে পরিণত হয়\nক্রিয়াকলাপ প্রতিদিন\n\nগুণগতমান ব্যয় করার উপায়গুলি সন্ধান করুন\nআপনার সঙ্গীর সাথে সময় দিন\nআপনার বাড়ির অন্যান্য প্রাপ্তবয়স্করাও!\n\n\n\nএকটি সহানুভূতিশীল\nসক্রিয় শ্রোতা হোন\n\nঅন্যের কথা শুনুন\n\n\nখোলা থাকুন এবং তাদের এটি দেখান\nতারা কি বলছে শুনুন\nএটি সংক্ষিপ্ত করতেও সহায়তা করতে পারে\nআপনি কি আগে শুনেছেন\nপ্রতিক্রিয়া: “আমি আপনাকে যা শুনছি\nবলা হচ্ছে… ”\n\n\n\n\nইতিবাচক ভাষা ব্যবহার করুন।\n        এটি কাজ করে!\n\n\n\nআপনি যা করবেন না তার পরিবর্তে আপনি  কী করতে চান তা অন্যকে বলুন\n "চেঁচামেচি বন্ধ করুন" পরিবর্তে "দয়া করে কথা বলুন\nআরও নিঃশব্দে ”\nঅন্যের মুখে প্রশংসার কথা শুনে নিজের মধ্যে অন্যরকম বোধ হয় |\n"ডিনার সাফ করার জন্য আপনাকে ধন্যবাদ", বা "ধন্যবাদ" এর মতো সহজ শব্দ\nআপনি বাচ্চা দেখার জন্য "একটি বড় পার্থক্য করতে পারে
+</string>
+
+    <string name="parenting_learning_through_play_heading">Parenting - Learning Through Play</string>
+    <string name="parenting_learning_through_play_1">"Types of play\nThere are so many different types
+        of play that can\nbe both fun AND educational\nLanguage, numbers, objects, drama, and music\ngames
+        give children opportunities to explore and\nexpress themselves in a safe and fun way\n\n\n
+        \nMovement games\nCreate a dance choreography to your children’s favorite songs. First\nperson does a
+        dance move and everyone else copies. Everyone takes\nturns being the leader\n“Challenge” who can do the
+        most toe touches – jumping jacks,\nwindmill toe touches in a minute\n“Mirror” each other – facial expressions,
+        movements, sounds. One\nperson can start as the leader and then switch. Try it with no leaders!\nFreeze dance:
+        Play music or someone sings a song, and everyone\ndances. When the music stops, everyone must freeze. Last person\n
+        still dancing becomes the judge for the next round\nAnimal dance: Same as above but when the music stops, call out
+        a\nname of an animal, and everyone has to become that animal\n\n\nTelling stories\nTell your children a story\n
+        from your own childhood\nAsk your children to tell\nyou a story\nMake up a new story together\nstarting with
+        “Once upon a\ntime…” Each person adds a new\nsentence to the story\nAct out a favorite story or movie\n–
+        older children can even direct\nyounger ones while learning\nresponsibili\n\n\n\nChange\nthe object!\n
+        Every day household items like\nbrooms, mops, or scarfs can\nbecome fun props for games\nPlace an object
+        in the center\nof the room and whenever\nsomeone has an idea, they\njump in and show the rest what\nthe
+        object can be\nFor example, a broom\nmight become a horse or a\nmicrophone or even a guitar!\n"
+</string>
+    <string name="parenting_learning_through_play_2">স্মৃতি গেম\n\nপ্রথম ব্যক্তি বলবেন,\n "কখন\nCOVID-19 লকডাউন শেষ হয়, আমি (উদাঃ, পার্কে ) " যাচ্ছি… \n \nদ্বিতীয় ব্যক্তি প্রথম \nব্যক্তিকে, "যখন COVID-19\nলকডাউন শেষ, আমি পার্ক যাচ্ছি\n এবং …\n\n\nএবং প্রতিটি ব্যাক্তি আগের আলোচনার সাথে অ্যাড করবেন\nযেমজার জিনিস কখন করতে হবে এবং\nCOVID-19 লকডাউন শেষ হয়\n\n\nআপনার বাচ্চার জন্য গান করুন\nভাষা বিকাশে সহায়তা করুন, খেলুন বা একটি গান গান, এবং\n\nহাত ধোয়া বা শারীরিক দূরত্ব সম্পর্কে একটি গান তৈরি করুন।
+</string>
+    <string name="parenting_when_we_get_angry_heading">  প্যারেন্টং  যখন আমরা রাগ করি  </string>
+    <string name="parenting_when_we_get_angry_1">নদীকে তার উৎসে থামান\n\nএকই জিনিসগুলি সাধারণত আমাদের প্রতিবার স্ট্রেস এবং রাগ তৈরি করে\n\n আমাদেরকে কি রাগান্বিত করে? কখন\nএটা ঘটে? তুমি কেমন করে সাধারণত প্রতিক্রিয়া দেখাও?\nএটি শুরু থেকে প্রতিরোধ করুন।\n\nযদি এটা\nযখন আপনি ক্লান্ত হয়ে পড়েছেন, পান\nকিছু ঘুম বা বিশ্রাম। যদি এটি ক্ষুধার্ত হয় তবে আপনি খেতে পারেন তা নিশ্চিত হওয়ার চেষ্টা করুন। যদি এটি একা অনুভব করে তবে কাউকে সমর্থন চাইবেন\n\nনিজের যত্ন নাও.\n\n‘একটি বিরতি নেওয়ার চেষ্টা করুন\n এবং চাপ পরিচালনা করা \nআইডিয়াগুলির জন্য রিসোর্স শীট\n নাও\nআপনি যখন রাগ বোধ শুরু করেন, একটি 20-সেকেন্ড শীতল করে নিঃশ্বাস নিন। নিঃশ্বাস নাও\nএবং ধীরে ধীরে আপনার আগে 5 বার আউট\nকথা বলা বা সরানো\nআপনার আবেগের নিয়ন্ত্রণ ফিরে পেতে দশ মিনিটের জন্য অন্য কোথাও যান।\n\nআপনার যদি বাহিরের নিরাপদ জায়গা থাকে তবে বাইরে যান\n। যদি এটি এমন বাচ্চা হয় যা কান্না থামায় না,\nতাদের পিঠে নিরাপদে রেখে কিছুটা দূরে চলে যাওয়া ঠিক আছে  আপনাকে শান্ত করার জন্য কাউকে ফোন করুন। তাদের উপর প্রতি 5-10 মিনিট  পর চেক করুন
+</string>
+    <string name="parenting_when_we_get_angry_2">নিজের যত্ন নিবেন\n\n\nআমাদের সকলকে সংযোগ রাখার দরকার। বন্ধুদের সাথে কথা বলা, পরিবার এবং অন্যদের সাথে নেটওয়ার্ক রাখা \n\nমদ্যপান বা পানীয়  থেকে পিছনে কাটা,\nবিশেষত যখন বাচ্চারা জেগে থাকে\n\nআপনার কাছে কি অস্ত্র বা জিনিস রয়েছে?\nযে অন্যকে আঘাত করতে ব্যবহার করা যেতে পারে?\nএগুলি লক করুন, এগুলি লুকান বা নিন\nতাদের বাড়ির বাইরে\nএটি বাড়িতে তাদের জন্য নিরাপদ না থাকলে এটি\nবাচ্চাদের সহায়তার জন্য বাইরে যাওয়ার জন্য ঠিক আছে\nঅথবা কিছুক্ষণ অন্য কোথাও থাকুন\n\nমস্তিষ্কবিজ্ঞান দেখায় যে আপনি নিজের ক্রোধকে নিয়ন্ত্রণ করেন বা কিছু ইতিবাচক কাজ করেন যা  বাড়িয়ে তোলে\nসন্তানের মস্তিষ্কের বিকাশ।\n\nএটাই আসল সাফল্য!
+</string>
+
+    <string name="what_is_corona_heading"> করোনভাইরাস কি ?</string>
+    <string name="what_is_corona_1">করোনাভাইরাস ভাইরাসগুলির একটি বৃহত পরিবার যা  প্রাণী বা মানুষের মধ্যে অসুস্থতার কারণ হতে পারে। মানুষের মধ্যে বেশ কয়েকটি করোনভাইরাস সম্পর্কে জানা যায় , সাধারণ ঠান্ডা থেকে শুরু করে আরও গুরুতর রোগ পর্যন্ত শ্বাস প্রশ্বাসের সংক্রমণ ঘটায় ।  যেমন মধ্য প্রাচ্যের রেসপিরেটরি সিন্ড্রোম (এমআরএস) এবং গুরুতর তীব্র শ্বাসতন্ত্র সিন্ড্রোম  (সার্স)।
+সর্বশেষ  সন্ধান পাওয়া করোনাভাইরাস করোনভাইরাস রোগ কোভিড -১৯ এর জন্য দায়ী ।
+</string>
+
+    <string name="what_is_covid19_heading"> কোভিড -19 কী? ?</string>
+    <string name="what_is_covid19_1">"COVID-19 হ'ল একটি সংক্রামক রোগ যা সম্প্রতি ব্যাপক আলোচিত এবং আবিষ্কৃত করোনা ভাইরাস। এই নতুন ভাইরাস এবং রোগটি শুরু হওয়ার আগে অজানা ছিল।  ২০১২ সালের ডিসেম্বরে চীনের উহান শহরে শুরু হয়েছিল কোভিড-১৯
+
+</string>
+
+    <string name="how_does_it_spread_heading"> করোনার ভাইরাস কীভাবে ছড়িয়ে পড়ে? </string>
+    <string name="how_does_it_spread">লোকেরা অন্যদের কাছ থেকে কোভিড -১৯ ধরতে পারে যারা ভাইরাস আক্রান্ত রয়েছে  । এই রোগটি প্রাথমিকভাবে ব্যক্তি থেকে শুরু করে ছোট ফোঁটাগুলির মাধ্যমে নাক বা মুখ থেকে ছড়িয়ে পড়ে , যা COVID-19 আক্রান্ত ব্যক্তির কাশি, হাঁচি,বা কথা বলার সময় বেরোতে পারে। এই ফোঁটাগুলি তুলনামূলকভাবে ভারী, খুব বেশি দূর ভ্রমণ করবেন না এবং দ্রুত মাটিতে মিশে যায় । লোকেরা ভাইরাসে আক্রান্ত ব্যক্তির কাছ থেকে এই ফোঁটাগুলিতে শ্বাস ফেললে তারা COVID-19 আক্রান্ত হতে পারে । এ কারণেই অন্যদের থেকে কমপক্ষে 1 মিটার দূরে থাকা গুরুত্বপূর্ণ। এই ফোঁটাগুলি অবতরণ করতে পারে টেবিল, ডোরকনবস এবং হ্যান্ড্রেলগুলির মতো ব্যক্তির চারপাশে বস্তু এবং পৃষ্ঠসমূহ এর ওপরে । মানুষ হতে পারেএই জিনিস বা পৃষ্ঠতল স্পর্শ করার পর তাদের চোখ, নাক বা মুখ স্পর্শ করলে এটি দ্বারা সংক্রামিত হতে পারে । এই জন্য নিয়মিত সাবান এবং জল দিয়ে আপনার হাত ধোয়া বা অ্যালকোহল ভিত্তিক দিয়ে পরিষ্কার করা জরুরী ।
+</string>
+
+    <string name="symptoms_of_covid19_heading"> কভিড -১৯ এর লক্ষণসমূহ </string>
+    <string name="symptoms_of_covid19">COVID-19 এর সর্বাধিক সাধারণ লক্ষণগুলি হল জ্বর,শুকনো কাশি এবং ক্লান্তি ।অন্যান্য লক্ষণগুলি যা কম সাধারণ এবং কিছু রোগীদের প্রভাবিত করতে পারে হলোঃ  ব্যথা, অনুনাসিক ভিড়, মাথা ব্যথা, কনজেক্টিভাইটিস, গলা ব্যথা, ডায়রিয়া,স্বাদ বা গন্ধের ক্ষতি বা ত্বকে ফুসকুড়ি বা আঙ্গুলের বা পায়ের আঙুলের বর্ণহীনতা। এই লক্ষণগুলিসাধারণত হালকা এবং ধীরে ধীরে শুরু হয়। কিছু লোক সংক্রামিত হয় তবে তাদের মধ্যে খুব হালকা লক্ষণ রয়েছে।। n \n বেশিরভাগ লোক (প্রায় 80%) হাসপাতালের চিকিত্সার প্রয়োজন ছাড়াই এই রোগ থেকে মুক্তি পেয়েছে। প্রায় COVID-19 আক্রান্ত প্রতি 5 জনের মধ্যে একজন গুরুতর অসুস্থ হয়ে পড়ে এবং শ্বাস নিতে অসুবিধা হয়। বৃদ্ধ জনগোষ্ঠী,এবং উচ্চ রক্তচাপ, হার্ট এবং ফুসফুসের সমস্যা, ডায়াবেটিস, বা এর মতো অন্তর্নিহিত চিকিত্সা সমস্যাগুলির সাথে ক্যান্সার, গুরুতর অসুস্থতা হওয়ার ঝুঁকিতে বেশি। তবে যে কেউ কোভিড -১৯ ধরতে পারে এবং গুরুতর অসুস্থ হয়ে পড়তে পারে।সকল বয়সের যে সব লোকেরা জ্বরে এবং কাশির সাথে সম্পর্কিত শ্বাস-প্রশ্বাসের শ্বাস / শ্বাসকষ্ট, বুকের সমস্যা অনুভব করেন, ব্যথা / চাপ, বা বক্তব্য হারাতে বা চলাফেরায়ভারসাম্য হারান, তাদের অবিলম্বে চিকিত্সার যত্ন নেওয়া উচিত। যদি সম্ভব হয় তবে  প্রথমে স্বাস্থ্যসেবা সরবরাহকারী বা সুবিধাকে কল করুন, যাতে রোগীকে সঠিক ক্লিনিকে যেতে দেওয়া যায়
+</string>
+
+    <string name="what_to_do_heading">আপনার লক্ষণগুলি থাকলে কী করবেন?</string>
+    <string name="what_to_do">আপনি এই ধরনের সামান্য কাশি বা জ্বর যেমন ছোটখাট উপসর্গ, থাকে, তাহলে  সাধারণত চিকিত্সা নেওয়ার বা হাসপাতালে যাওয়ার প্রয়োজন নেই। বাড়িতে থাকুন, স্ব-বিচ্ছিন্ন এবং আপনার লক্ষণগুলি নিরীক্ষণ করুন।  স্ব-বিচ্ছিন্নতার বিষয়ে জাতীয় দিকনির্দেশনা অনুসরণ করুন \ n তবে আপনি যদি ম্যালেরিয়া বা ডেঙ্গু হতে পারে এমন জায়গায় থাকেন , তাহলে এটি জরুরী যে আপনি জ্বরের লক্ষণগুলি উপেক্ষা করবেন না। চিকিত্সা সহায়তা নিন। আপনি যখন স্বাস্থ্যসেবার জায়গায় বা হাসপাতালে  উপস্থিত হন , তখন যদি সম্ভব হয় তবে একটি মাস্ক পরুন, অন্য ব্যক্তিদের থেকে কমপক্ষে 1 মিটার দূরত্ব রাখুন এবং আপনার হাত দিয়ে পৃষ্ঠতল স্পর্শ করবেন না। যদি এটি অসুস্থ শিশু হয় তবে শিশু এই নির্দেশনা মেনে থাকতে সাহায্য করুন।  । \ n আপনার যদি শ্বাস নিতে সমস্যা হয় বা বুকে ব্যথা / চাপ থাকে তবে অবিলম্বে চিকিত্সা যত্ন নিন ,  যদি সম্ভব হয় তবে আপনার স্বাস্থ্যসেবা সরবরাহকারীকে আগে থেকে কল করুন, যাতে সে আপনাকে সঠিক স্বাস্থ্যসেবা করতে পারে।
+</string>
+
+    <string name="shihab_text_j4_1_heading"> # করোন ভাইরাস চলাকালীন ভয়কে সম্বোধন করার জন্য দয়াবান হন</string>
+    <string name="shihab_text_j4_1_1">আক্রান্তদের প্রতি সহানুভূতি দেখান</string>
+    <string name="shihab_text_j4_1_2">ঝুঁকিগুলি নির্ধারণের জন্য রোগ সম্পর্কে জানুন</string>
+    <string name="shihab_text_j4_1_3">নিরাপদে থাকার জন্য ব্যবহারিক ব্যবস্থা গ্রহণ করুন</string>
+
+    <string name="shihab_text_j4_2_heading"># করোন ভাইরাস চলাকালীন কলঙ্কের সমাধান করার জন্য দয়াবান হন</string>
+    <string name="shihab_text_j4_2_1">সর্বশেষ তথ্য ভাগ করুন, অতিশয়োক্তি এড়ান</string>
+    <string name="shihab_text_j4_2_2">ক্ষতিগ্রস্থ ব্যক্তিদের সাথে সংহতি প্রদর্শন করুন</string>
+    <string name="shihab_text_j4_2_3">সেই ভাইরাসের অভিজ্ঞতা আছে এমন লোকদের গল্প বলুন</string>
+
+    <string name="shihab_text_j4_3_heading"># করোন ভাইরাস চলাকালীন প্রিয়জনকে সমর্থন করার জন্য দয়াবান হন</string>
+    <string name="shihab_text_j4_3_1">বিশেষত ক্ষতিগ্রস্থদের সাথে নিয়মিত চেক ইন করুন</string>
+    <string name="shihab_text_j4_3_2">তারা যা উপভোগ করে তা করতে তাদের উত্সাহিত করুন</string>
+    <string name="shihab_text_j4_3_3">উদ্বেগগুলি পরিচালনা করতে বিশ্ব সাস্থ সংস্থা এর তথ্য ভাগ করুন</string>
+    <string name="shihab_text_j4_3_4">আপনার বাচ্চাদের জন্য শান্ত এবং সঠিক পরামর্শ দিন</string>
+
+    <string name="shihab_text_j4_6_heading"># করোন ভাইরাসের জন্য প্রস্তুত থাকুন</string>
+    <string name="shihab_text_j4_6_1">ডাব্লুএইচএও কীভাবে নিজেকে অন্যদের রক্ষা করতে পারি সে বিষয়ে  পরামর্শ দিচ্ছে: করোনভাইরাস সংক্রমণ থেকে নিরাপদ থাকুন \n
+স্মার্ট থাকুন\n
+ নিজেকে এ সম্পর্কে অবহিত করুন\n
+একে অপরকে সমর্থন করুন\n</string>
+
+    <string name="shihab_text_j4_7_heading"># করোনভাইরাস থেকে নিরাপদ হন</string>
+    <string name="shihab_text_j4_7_1">আপনি যদি ষাটোর্ধো হন  বা আপনার অন্তর্নিহিত অবস্থা থাকে যেমনঃ \n\nকার্ডিওভাসকুলার ডিজিজ</string>
+    <string name="shihab_text_j4_7_2">শশ্বাস প্রশ্বাসের সমস্যা</string>
+    <string name="shihab_text_j4_7_3">ডায়াবেটিস \ n \ n জনাকীর্ণ অঞ্চল বা এমন জায়গাগুলি এড়িয়ে চলুন যেখানে আপনি অসুস্থ মানুষের সাথে যোগাযোগ করতে পারেন।</string>
+
+    <string name="shihab_text_j4_8_heading">আপনি যদি শ্বাসকষ্ট বোধ করেন তবে বুদ্ধি দিয়ে সিদ্ধান্ত নিন :</string>
+    <string name="shihab_text_j4_8_1">আপনার ডাক্তারকে কল করুন</string>
+    <string name="shihab_text_j4_8_2">তাত্ক্ষণিক চিকিৎসা নিন!</string>
+
+    <string name="shihab_text_j4_9_heading">স্মার্ট হোন এবং নিজেকে # করোন ভাইরাস সম্পর্কে অবহিত করুন</string>
+    <string name="shihab_text_j4_9_1">আপনার স্থানীয় স্বাস্থ্য কর্তৃপক্ষের কাছ থেকে সঠিক জনস্বাস্থ্যের পরামর্শ অনুসরণ করুন</string>
+    <string name="shihab_text_j4_9_2">সর্বশেষ করোনভাইরাস আপডেটের খবর অনুসরণ করুন</string>
+    <string name="shihab_text_j4_9_3">গুজব ছড়াতে এড়াতে, সর্বদা যে উত্স থেকে আপনি তথ্য নিচ্ছেন তা পরীক্ষা করুন</string>
+    <string name="shihab_text_j4_9_4">গুজব ছড়াবেন না</string>
+
+    <string name="shihab_text_j4_10_heading">সন্দেহযুক্ত বা নিশ্চিত COVID-19 যুক্ত ব্যক্তিদের জন্য বাড়ির যত্ন </string>
+    <string name="shihab_text_j4_10_1">যত্নশীলদের জন্য,\n\n
+অসুস্থ ব্যক্তি বিশ্রাম নিন, প্রচুর পরিমাণে তরল পান করুন এবং পুষ্টিকর খাবার  নিশ্চিত করুন</string>
+    <string name="shihab_text_j4_10_2">বিশেষত  সাবান এবং জল বা অ্যালকোহল ঘষা
+        দিয়ে হাত পরিষ্কার করুন \n অসুস্থ ব্যক্তি বা তার আশেপাশের সাথে কোনও
+        ধরণের যোগাযোগের পরে \n
+        খাবারের আগে  পরে \n
+        টয়লেট ব্যবহার করে</string>
+    <string name="shihab_text_j4_10_3">
+        অসুস্থ ব্যক্তির দ্বারা স্পর্শকৃত জায়গা গুলো চিহ্নিত করুন
+         এবং প্রতি নিয়ত পরিষ্কার করার চেষ্টা করুন
+        </string>
+    <string name="shihab_text_j4_10_4">
+        অসুস্থ ব্যক্তির নিকটে আসার সময় মাস্ক ব্যবহার করুন এবং উক্ত সময় মাস্ক
+        এবং মুখে হাত দিবেন না এবং ব্যবহারের পর মাস্ক পরিত্যাগ করুন</string>
+    <string name="shihab_text_j4_10_5"> অসুস্থ ব্যক্তির জন্য থালা - বাসন, কাপ,
+    খাওয়ার পাত্র, তোয়ালে এবং বিছানার লিনো উত্সর্গীকৃত। অসুস্থ ব্যক্তির দ্বারা সাবান
+        ও জল দিয়ে ব্যবহৃত বাসন, কাপ, খাওয়ার পাত্র, তোয়ালে বা বিছানার লিনেন ধুয়ে নিন </string>
+    <string name="shihab_text_j4_10_6">
+      অসুস্থ ব্যক্তির অবনতি ঘটে বা শ্বাস নিতে অসুবিধা হলে
+        অবিলম্বে আপনার স্বাস্থ্যসেবা সুবিধাটিতে কল করুন।</string>
+
+    <string name="shihab_text_j4_11_heading">পরিবারের সকল সদস্য</string>
+    <string name="shihab_text_j4_11_1">নিয়মিত সাবান এবং জল দিয়ে হাত ধুয়ে নিন, বিশেষত:\n
+        কাশি বা হাঁচির পরে\n
+        খাবার প্রস্তুত করার আগে এবং খাওয়ার আগে\n
+        টয়লেট ব্যবহারের পরে\n
+        অসুস্থ ব্যক্তির যত্ন নেওয়ার আগে এবং পরে \n
+        যখন হাত নোংরা হয়</string>
+    <string name="shihab_text_j4_11_2">কাশি বা হাঁচি দেওয়ার সময় মুখ এবং নাককে নমনীয়
+        কনুই দিয়ে ঢেকে রাখুন বা একটি  টিস্যু ব্যবহার করুন
+        এবং ব্যবহারের সাথে সাথে তা ফেলে দিন।</string>
+    <string name="shihab_text_j4_11_3">অসুস্থ ব্যক্তির অপ্রয়োজনীয় এক্সপোজার এড়াতে এবং আইটেমগুলি ভাগ করে নেওয়া, যেমন বাসন, খাবার, পানীয় এবং তোয়ালেগুলি এড়িয়ে চলুন
+</string>
+    <string name="shihab_text_j4_11_4">জ্বর, কাশি এবং শ্বাস নিতে সমস্যা দেখা দিলে লক্ষণগুলির
+        জন্য প্রত্যেকের স্বাস্থ্যের উপর নজর রাখুন, অবিলম্বে আপনার স্বাস্থ্যসেবা কল করুন</string>
+
+
+    <string name="shihab_text_j4_12_heading">* অসুস্থ মানুষের জন্য *</string>
+    <string name="shihab_text_j4_12_1">জ্বর এবং কাশি নিয়ে অসুস্থ হলে\n
+সাবান এবং জল দিয়ে বা অ্যালকোহল-ভিত্তিক হাত ঘষা দিয়ে ঘন ঘন হাত পরিষ্কার করুন:</string>
+    <string name="shihab_text_j4_12_2">পরিবারের অন্যান্য
+        সদস্যদের থেকে পৃথক ঘরে থাকুন, তবে সম্ভব না হলে চিকিত্সার মুখোশটি পরুন এবং অন্যান্য ব্যক্তিদের থেকে কমপক্ষে 1 মিটার (3 ফুট) দূরত্ব রাখুন। ঘরটি ভাল বায়ুচলাচলে রাখুন এবং সম্ভব হলে ব্যবহার করুন \n একটি উত্সর্গীকৃত বাথরুম</string>
+    <string name="shihab_text_j4_12_3">বাড়িতে থাকুন,
+        কাজ, স্কুল বা পাবলিক জায়গায় উপস্থিত হন না। বিশ্রাম প্রচুর পরিমাণে তরল পান করুন এবং পুষ্টিকর খাবার খান।</string>
+    <string name="shihab_text_j4_12_4">
+কাশি বা হাঁচি দেওয়ার সময় মুখ এবং নাককে নমনীয় কনুই দিয়ে  ঢেকে দিন বা  টিস্যু ব্যবহার করুন এবং ব্যবহারের পরে ফেলে দিন যদি আপনার শ্বাস নিতে সমস্যা হয় তবে অবিলম্বে আপনার স্বাস্থ্যসেবা কল করুন।</string>
+
+    <string name="shihab_text_j4_13_heading">মানসিক চাপ সহ্য করার সময় 2019-nCoV প্রাদুর্ভাব</string>
+    <string name="shihab_text_j4_13_1">দুঃখ, চাপ,
+        বিভ্রান্তি, ভয় পেয়ে যাওয়া বা সঙ্কটের সময় রাগান্বিত অনুভব করা স্বাভাবিক </string>
+    <string name="shihab_text_j4_13_2">আপনার যদি অবশ্যই বাড়িতে থাকতে হয় তবে একটি স্বাস্থ্যকর জীবনধারা রক্ষা করুন -
+        যথাযথ ডায়েট, ঘুম, অনুশীলন এবং সামাজিক যোগাযোগ সহ
+        বাড়িতে প্রিয়জনদের সাথে এবং ইমেল এবং ফোনে
+        পরিবার এবং বন্ধুদের সাথে যোগাযোগ করুন </string>
+    <string name="shihab_text_j4_13_3">
+        মোকাবেলার জন্য ধূমপান, অ্যালকোহল বা অন্যান্য ড্রাগ ব্যবহার করবেন না</string>
+    <string name="shihab_text_j4_13_4">তথ্য পান। আপনাকে সাহায্য করবে এমন তথ্য সংগ্রহ করুন
+        আপনার ঝুঁকিটি নির্ভুলভাবে নির্ধারণ করুন যাতে আপনি নিতে পারেন
+        যুক্তিসঙ্গত সতর্কতা। আপনি পারেন এমন একটি বিশ্বাসযোগ্য উত্স সন্ধান করুন
+        বিশ্বস্ত ওয়েবসাইট, বা স্থানীয় বা রাষ্ট্রীয় পাবলিকের মতো বিশ্বাস
+        স্বাস্থ্য সংস্থা।</string>
+    <string name="shihab_text_j4_13_5">আপনার সময়কে কমিয়ে দিয়ে উদ্বেগ ও আন্দোলন সীমাবদ্ধ করুন
+        এবং আপনার পরিবার মিডিয়া দেখার বা শোনার জন্য ব্যয় করে
+        কভারেজ যা আপনি বিরক্তিকর হিসাবে উপলব্ধি করেছেন।
+        </string>
+    <string name="shihab_text_j4_13_6">অতীতে যে দক্ষতাগুলি আপনি ব্যবহার করেছেন সেগুলি আঁকুন
+        আপনাকে পূর্ববর্তী জীবনের প্রতিকূলতা এবং ব্যবহার পরিচালনা করতে সহায়তা করেছে
+        আপনার দক্ষতার সময় আপনার আবেগ পরিচালনা করতে সহায়তা করার দক্ষতা
+        এই প্রাদুর্ভাবের চ্যালেঞ্জিং সময়।</string>
+
+    <string name="shihab_text_j4_14_heading">বাচ্চাদের মানসিক চাপ সহ্য করতে সহায়তা করা  প্রাদুর্ভাবের সময়</string>
+    <string name="shihab_text_j4_14_1">
+        শিশুরা বিভিন্নভাবে স্ট্রেসের প্রতিক্রিয়া  জানাতে পারে \n
+        আঁকড়ে থাকা, উদ্বিগ্ন, প্রত্যাহার, রাগ হওয়া বা উত্তেজিত, শয়নকাজ ইত্যাদি\n
+        সহায়তার উপায়ে আপনার সন্তানের প্রতিক্রিয়ার প্রতি প্রতিক্রিয়া জানান,\n
+        তাদের উদ্বেগ শোনেন এবং তাদের অতিরিক্ত ভালবাসা এবং
+        মনোযোগ দেন.</string>
+    <string name="shihab_text_j4_14_2">বাচ্চাদের সময় প্রাপ্তবয়স্কদের ভালবাসা এবং মনোযোগ প্রয়োজন\n
+কঠিন সময়ে. তাদের অতিরিক্ত সময় এবং মনোযোগ দিন।\n
+আপনার বাচ্চাদের কথা শুনতে ভুলবেন না, দয়া করে কথা বলুন
+এবং তাদের পুনরুদ্ধার করুন।\n
+যদি সম্ভব হয় তবে সন্তানের জন্য খেলার সুযোগ তৈরি করুন
+খেলার ।</string>
+    <string name="shihab_text_j4_14_3">চেষ্টা করুন এবং তাদের বাবা-মা এবং পরিবারের নিকটবর্তী রাখুন
+এবং বাচ্চাদের এবং তাদের যত্নদাতাদের পৃথক করে এড়িয়ে চলুন
+সম্ভাব্য পরিমাণ যদি বিচ্ছেদ ঘটে (উদাঃ হাসপাতালে ভর্তি)
+নিয়মিত যোগাযোগ নিশ্চিত করুন (উদাঃ ফোনের মাধ্যমে) এবং পুনরায় আশ্বাস।
+    </string>
+    <string name="shihab_text_j4_14_4">নিয়মিত রুটিন এবং সময়সূচী যতটা সম্ভব হিসাবে রাখুন
+ , বা একটি নতুন একটি নতুন তৈরি করতে সহায়তা করুন
+স্কুল / শিক্ষার পাশাপাশি পরিবেশ
+নিরাপদে খেলা এবং শিথিল করার সময়।</string>
+    <string name="shihab_text_j4_14_5">কী হয়েছে সে সম্পর্কে তথ্য সরবরাহ করুন, এখন কী চলছে  তা ব্যাখ্যা করুন
+        তাদের মধ্যে এই রোগে আক্রান্ত হওয়ার ঝুঁকি কমাতে তাদের পরিষ্কার তথ্য দিন
+        তাদের বয়সের উপর নির্ভর করে যে শব্দগুলি তারা বুঝতে পারে।
+        এর মধ্যে কী কী সম্পর্কিত তথ্য সরবরাহ করা অন্তর্ভুক্ত রয়েছে
+        পুনঃ-আশ্বাসের উপায়ে ঘটতে পারে (উদাঃ কোনও পরিবারের সদস্য)
+        এবং / অথবা শিশুটি ভাল বোধ শুরু করতে পারে এবং হতে পারে
+        কিছু সময়ের জন্য হাসপাতালে যেতে যাতে ডাক্তাররা সহায়তা করতে পারে
+        তাদের ভাল মনে হয়)।</string>
+
+
+
+</resources>

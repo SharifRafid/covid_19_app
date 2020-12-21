@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/settings_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_settings_str"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/telenor_regular"
+            android:textSize="22sp"
+            android:textColor="#CBCFE6"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_bg_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/latest_news_bg"
+            android:foregroundGravity="center_horizontal"
+            android:layout_below="@+id/settings_title_txt"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_title_txt"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <Switch
+                android:id="@+id/switch_eng_lang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="English Language    "
+                android:fontFamily="@font/trebuchet_ms"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <Switch
+                android:id="@+id/switch_bng_lang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="বাংলা ভাষা    "
+                android:fontFamily="@font/trebuchet_ms"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bottpm_app_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/times_new_roman"
+            android:gravity="center"
+            android:text="@string/a_product_of_swad_express_str"
+            android:textColor="#27D53C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

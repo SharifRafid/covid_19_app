@@ -1,0 +1,356 @@
+<resources>
+    <string name="app_name">Cov Aid BD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="infected_text">Infected</string>
+    <string name="cured_text">Cured</string>
+    <string name="dead_text">Dead</string>
+    <string name="latest_news_text">Parental Tips</string>
+    <string name="learn_about_parenting_during_this_situation">Learn About Parenting During This Situation</string>
+    <string name="are_you_infected_text">Are you infected ?</string>
+    <string name="take_a_health_survey_text">Take health tips</string>
+    <string name="total_cases_str">Total Cases</string>
+    <string name="todays_cases_str">Todays Cases</string>
+    <string name="deaths_str">Deaths</string>
+    <string name="todays_deaths_str">Todays Deaths</string>
+    <string name="recovered_str">Recovered</string>
+    <string name="active_cases_str">Active Cases</string>
+    <string name="total_tests_str">Total Tests</string>
+    <string name="cases_million_str">Cases/Million</string>
+    <string name="deaths_million_str">Deaths/Million</string>
+    <string name="tests_million_str">Tests/Million</string>
+    <string name="app_settings_str">App Settings</string>
+    <string name="about_corona">About Corona</string>
+    <string name="a_product_of_swad_express_str">A Product Of SWAD EXPRESS</string>
+
+    <string name="dialog_permission_title">Permission Needed</string>
+    <string name="dialog_permission_body">For calling from the app this permission is needed</string>
+    <string name="dialog_permission_ok">OK Grant</string>
+    <string name="dialog_permission_no">No Leave It</string>
+
+    <string name="dialog_internet_connection_title">No Internet ..... :(</string>
+    <string name="dialog_internet_connection_body">Your device has no internet connection available.So the app wont be able to collect data from internet....</string>
+    <string name="dialog_internet_connection_load_no_internet">Load App Without Internet</string>
+    <string name="dialog_internet_connection_exit">OK, Exit App</string>
+
+    <string name="help_lines_str">  Help Lines (BD)  📞 </string>
+    <string name="hotline_n_333_str">HotLine \n  333 </string>
+    <string name="national_call_center_n_16263_str">National Call Center \n 16263 </string>
+    <string name="health_portal_n_10655_str">Health Portal \n 10655 </string>
+    <string name="iedcr_n_09611677777_str">IEDCR \n 09611677777 </string>
+    <string name="specialist_health_line_n_109_str">Specialist Health Line \n 109 </string>
+
+    <string name="how_to_put_on_a_mask_title">How To Put On A Mask</string>
+    <string name="how_to_put_on_a_mask_1">Before putting on a mask, wash hands with alcohol-based
+        hand rub or soap and water</string>
+    <string name="how_to_put_on_a_mask_2">Cover mouth and nose with mask and make sure there
+        are no gaps between your face and the mask Avoid touching the mask while using it; if you do,
+        clean your handswith alcohol-based hand rub or soap and water</string>
+    <string name="how_to_put_on_a_mask_3">Replace the mask with a new one as soon as it is damp
+        and do not re-use single-use masks3</string>
+    <string name="how_to_put_on_a_mask_4">To remove the mask: remove it from behind
+        (do not touch the front of mask); discard immediately in a closed bin;
+        wash hands with alcoholbased hand rub or soap and water</string>
+
+    <string name="child_aware_heading">Parenting - How to stay positive</string>
+    <string name="child_aware_body_1">It‘s hard to feel positive when our kids or teenagers are driving us crazy.
+        We often end up saying “Stop doing that!” But children are much more likely to do
+        what we ask if we give them positive instructions and lots of praise for what they
+        do right.Say the behaviour you want to see. \n\n
+
+        Use positive words when telling your child what to do; like ‘Please put your clothes away’
+        (instead of ‘Don’t make a mess’\n\n
+
+        Praise your child when they are behaving well\n
+        Try praising your child or teenager for something they have done well.
+        They may not show it, but you’ll see them doing that good thing again.
+        It will also reassure them that you notice and care.\n\n
+
+        It’s all in the delivery\n
+        Shouting at your child will just make you and them more stressed
+        and angrier. Get your child’s attention by using their name.\n
+        Speak in a calm voice.</string>
+
+    <string name="child_aware_body_2">
+        Get real\n
+        Can your child actually do what you are asking them?
+        It is very hard for a child to keep quiet inside for a
+        whole day but maybe they can keep quiet for 15 minutes while you are on a call.\n\n
+
+        Help your teen stay connected\n
+        Teens especially need to be able to communicate with their friends.
+        Help your teen connect through social media and other safe distancing ways.
+        This is something you can do together, too!
+    </string>
+
+    <string name="parenting_stay_aware_heading">Parenting - Stay Aware </string>
+    <string name="parenting_stay_aware_body_1">Create a flexible but consistent daily routine\n
+        Make a schedule for you and your children that has time for structured activities as well as free time.
+        This can help children feel more secure and better behaved.
+        Children or teenagers can help plan the routine for the day –
+        like making a school timetable. Children will follow this better if they help to make it.
+        Include exercise in each day  - this helps with stress and kids  with lots of energy at home.
+        You are a model for your child’s behavior
+        If you practice keeping safe distances and hygiene yourself, and treat others with compassion,
+        especially those who are sick or vulnerable – your children and teenagers will learn from you.
+    </string>
+    <string name="parenting_stay_aware_body_2">Teach your child about keeping safe distances\n
+        If it is OK in your country,  get children outside.
+        You can also write letters and draw pictures to share with people. Put them up
+        outside your home for others to see!
+        You can reassure your child by talking about how you are keeping safe. Listen to
+        their suggestions and take them seriously.\n\n
+
+        Make handwashing and hygiene fun\n
+        Make a 20-second song for washing hands. Add  actions! Give children points and praise
+        for regular handwashing.
+        Make a game to see how few times we can touch our faces with a reward for the least number
+        of touches (you can count for each other).\n\n
+
+        At the end of each day, take a minute to think about the day.  Tell your child about one
+        positive  or fun thing they did. Praise yourself for what you did well today.  You are a star!
+</string>
+
+    <string name="parenting_keep_calm_heading">Parenting - Stay Calm </string>
+    <string name="parenting_keep_calm_body_1">
+        COVID-19 PARENTING\n\n
+
+        Keep Calm and Manage Stress\n
+
+        You are not alone\n
+
+        Millions of people have the same fears as us. Find someone who you can talk to about
+        how you are feeling. Listen to them. Avoid social media that makes you feel panicked.\n\n
+
+        Take a break\n
+        We all need a break sometimes. When your children are asleep, do something fun or relaxing
+        for yourself. Make a list of healthy activities that YOU like to do. You deserve it!\n\n
+
+        Listen to your kids\n
+        Be open and listen to your children. Your children will look to you for support and reassurance.
+        Listen to your children when they share how they are feeling. Accept how they feel and give them comfort.\n\n
+</string>
+    <string name="parenting_keep_calm_body_2">Take a Pause
+        1-minute relaxation activity that you can do whenever you are feeling stressed or worried
+        Step 1: Set up •   Find a comfortable sitting position, your feet flat on the floor, your hands resting in your lap. •  Close your eyes if you feel comfortable.
+        Step 2: Think, feel, body •  Ask yourself, “What am I thinking now?” •   Notice your thoughts. Notice if they are negative or positive. •   Notice how you feel emotionally. Notice if your feelings are happy or not. •   Notice how your body feels. Notice anything that hurts or is tense.
+        Step 3: Focus on your breath •  Listen to your breath as it goes in and out. •   You can put a hand on your stomach and feel it rise and fall with each breath. •   You may want to say to yourself “It’s okay. Whatever it is, I am okay.” •  Then just listen to your breath for a while.
+        Step 4: Coming back •   Notice how your whole body feels. •   Listen to the sounds in the room.
+        Step 5: Reflecting •  Think ‘do I feel different at all?’. •   When you are ready, open your eyes.
+
+        Taking a Pause can also be helpful when you find your child is irritating you or has done something wrong. It gives you a chance to be calmer. Even a few deep breaths or connecting with the feeling of the floor beneath can make a difference. You can also Take a Pause with your children!
+    </string>
+
+    <string name="parenting_talking_cov_heading">Parenting - Talk About COVID-19</string>
+    <string name="parenting_talking_cov_body_1">COVID-19 PARENTING
+        Talking about COVID-19\n
+        Be willing to talk. They will already have heard something. Silence and secrets do not protect our children.
+        Honesty and openness do. Think about how much they will understand. You know them best.\n\n
+
+        Be open and listen\n
+        Allow your child to talk freely. Ask them open questions and find out how much they already know.\n\n
+
+        Be honest\n
+        Always answer their questions truthfully. Think about how old your child is and how much they can understand.
+</string>
+    <string name="parenting_talking_cov_body_2">Be supportive
+        Your child may be scared or confused. Give them space to share how they are feeling and let them know you are there for them.\n\n
+
+        It is OK not to know the answers\n
+        It is fine to say “We don’t know, but we are working on it; or we don’t know, ‘but we think’.”  Use this as an opportunity to learn something new with your child!\n\n
+
+        Heroes not bullies\n
+        Explain that COVID-19 has nothing to do with the way someone looks, where they are from, or what language they speak.
+        Tell your child that we can be compassionate to people who are sick and those who are caring for them.
+        Look for stories of people who are working to stop the outbreak and are caring for sick people\n\n
+    </string>
+
+    <string name="parenting_safe_on_internet_heading">Parenting - Safe On Internet</string>
+    <string name="parenting_safe_on_internet_1">"Adults targeting children\nfor sexual purposes on\nsocial media, gaming,\nand messaging platforms\nHarmful content – violence,\nmisogyny, xenophobia,\ninciting suicide and self-\nharm, misinformation, etc.\nTeens sharing personal\ninformation and sexual\nphotos or videos of\nthemselves\nCyberbullying from\npeers and strangers\n\n\n//////////////\nTech fixes to\nprotect your\nchildren online\n\n\nSet up parental controls\nTurn on SafeSearch\non your browser\nSet up strict privacy settings\non online\napps and games\nCover webcams\nwhen not in use\n\n\n//////////////////////\nCreate healthy\nand safe online\nhabits\n\n\nInvolve your child or teen\nin creating family tech\nagreements about healthy\ndevice use\n\nCreate device-free spaces\nand times in your house\n(eating, playing, schoolwork,\nand sleeping)\nHelp your child learn how to\nkeep personal information\nprivate, especially from\nstrangers – some people are\nnot who they say they are!\nRemind your children that\nwhat goes online stays\nonline (messag\n\n//////////////////////\n\nSpend time\nwith your child\nor teen online\n\nExplore websites, social\nmedia, games, and apps\ntogether\nTalk to your teen on how to\nreport inappropriate content\n(see below)\nCommon Sense Media\nhas great advice for apps,\ngames and entertainment for\ndifferent ages\n\n"
+</string>
+    <string name="parenting_safe_on_internet_2">Keep your child\nsafe with open\ncommunication\n\n\n\nTell your children that if they\nexperience something online\nthat makes them feel upset,\nuncomfortable, or scared, they\ncan talk to you and you will not\nget mad or punish them\n\n\nBe alert to signs of distress.\nNotice if your child is being\nwithdrawn, upset, secretive, or\nobsessed with online activities\nCreate trusting relationships\nand open communication\nthrough positive support and\nencouragement\nNote that every child is\nunique and may use different\nways to communicate. Take\ntime to adjust your message\nfor your child’s needs. For\nexample, children with learning\ndisabilities, may require\ninformation in simple format
+    </string>
+
+    <string name="parenting_family_budgeting_heading">Parenting - Family Budgeting</string>
+    <string name="parenting_family_budgeting_1">"    Involve children and\nteens in making a\nfamily budget\n///////////\nWhat do we\nspend now?\n\n\nGet a piece of paper (or old\nnewspaper or a cardboard box)\nand a pen\n\n\nDraw pictures of all the things that\nyou and your family spend money on\neach month\nWrite next to each picture how much\neach thing costs\nAdd up how much money you have\neach month to spend\n\n\n//////////////////////////////////////\nTalk about needs\nand wants\n\n\nNeeds: Which things are important\nor must have for your family to\nsurvive? (like food, soap to wash\nhands, needs for ill or disabled family\nmembers)\nWants: Which things are nice to have\nbut not essential?\nDiscuss with your children what\nthings you could try to spend less on\nas a family\n\n\n//////////////////////////\nBuild your\nown budget\n\nFind a bag of stones or anything with\nlots of bits.\n\nAs a family, decide what you will\nspend on what, and put the stones\non your picture\nIf you can save even a tiny amount\nfor the future, or for anothe\nemergency – it is great\n///////////////////////////\nA budget is how we decide what we\nwill spend our money on, even in\nstressful times\nMaking a budget together helps children\nunderstand that we all need to make hard\ndecisions in difficult times\n\nIt also helps families to have enough at\nthe end of the month, and borrow less\n\n/////////////////////////\nFind out if\nthere is help\nyou can get\n\nYour government\nmay be giving\nmoney, or food\nparcels to families\nduring COVID-19\n\nAsk about\nwhether places in\nyour community\nare giving support"
+</string>
+
+    <string name="parenting_family_harmony_heading">Parenting - Family Harmony</string>
+    <string name="parenting_family_harmony_1">We are models for our kids\nHow we talk and behave in front of others is a big\ninfluence on how they behave too!\nTry to talk kindly to everyone in the family, adults and\nchildren\nBad communication between adults in the household\ncan have a negative impact on our children\nThe more we practice modelling peaceful, loving\nrelationships for our children the more secure and\nloved they will feel\n\n////////////////////////////////\nShare the load\nLooking after children and other\nfamily members is difficult,\nbut it’s much easier when\nresponsibilities are shared\nTry to share household chores,\nchildcare, and other tasks\nequally amongst family members\nCreate a schedule for time “on”\nand time “off” with other adults\nin your household\nIt is okay to ask for help when\nyou are feeling tired or stressed\nso that you can take a break\n\n\n\n\n\n\n\n\n\n////////////////////////\nFeeling stressed\nor angry?\n\n\nGive yourself a 10-second\npause. Breathe in and out\nslowly five times. Then try\nto respond in a calmer way.\nMillions of parents say this\nhelps - A LOT\nCall a truce when you can see\narguments building up, and go\ninto another room or outside\nif you can\nSee Tip Sheets on “When We\nGet Angry” and “Keep Calm\nand Manage Stress”\n\n\n\n/////////////////////\n\nNice things to\ndo together\nas a family\n\n\nLet each family member take\nturns to choose a whole-family\nactivity each day\n\nFind ways to spend quality\ntime with your partner and\nother adults in your home, too!\n\n\n///////////////////////\nBe an\nempathetic\nactive listener\n\n\nListen to others when they are\ntalking with you\n\nBe open and show them that\nyou hear what they are saying\nIt can help to even summarise\nwhat you have heard before\nresponding: “What I hear you\nsaying is...”\n\n\n///////////////////////\n\nUse positive language. It works!\n\n\nTell others what you want them to do instead of what you don’t\nwant them to do: Instead of “Stop shouting,” try “Please speak\nmore quietly”\nPraise makes others feel appreciated and good about themselves.\nSimple words like, “Thank you for clearing the dinner,” or “Thank\nyou for watching the baby” can make a big difference
+</string>
+
+    <string name="parenting_learning_through_play_heading">Parenting - Learning Through Play</string>
+    <string name="parenting_learning_through_play_1">"Types of play\nThere are so many different types of play that can\nbe both fun AND educational\nLanguage, numbers, objects, drama, and music\ngames give children opportunities to explore and\nexpress themselves in a safe and fun way\n\n\n////////////////////\nMovement games\nCreate a dance choreography to your children’s favorite songs. First\nperson does a dance move and everyone else copies. Everyone takes\nturns being the leader\n“Challenge” who can do the most toe touches – jumping jacks,\nwindmill toe touches in a minute\n“Mirror” each other – facial expressions, movements, sounds. One\nperson can start as the leader and then switch. Try it with no leaders!\nFreeze dance: Play music or someone sings a song, and everyone\ndances. When the music stops, everyone must freeze. Last person\nstill dancing becomes the judge for the next round\nAnimal dance: Same as above but when the music stops, call out a\nname of an animal, and everyone has to become that animal\n\n////////////////////////////\nTelling stories\nTell your children a story\nfrom your own childhood\nAsk your children to tell\nyou a story\nMake up a new story together\nstarting with “Once upon a\ntime...” Each person adds a new\nsentence to the story\nAct out a favorite story or movie\n– older children can even direct\nyounger ones while learning\nresponsibili\n\n\n\n////////////////////////\nChange\nthe object!\nEvery day household items like\nbrooms, mops, or scarfs can\nbecome fun props for games\nPlace an object in the center\nof the room and whenever\nsomeone has an idea, they\njump in and show the rest what\nthe object can be\nFor example, a broom\nmight become a horse or a\nmicrophone or even a guitar!\n"
+</string>
+    <string name="parenting_learning_through_play_2">"\n////////////////////////\nMemory game\n\nFirst person says, “When\nCOVID-19 lockdown ends, I am\ngoing to... (e.g., go to the park)”\n\n\nSecond person adds to first\nperson, “When COVID-19\nlockdown ends, I am going to\nthe park and... (e.g., visit my\nbest friend)”\nEach person adds to the\nprevious trying to think of all\nof the fun things to do when\nCOVID-19 lockdown ends\n\n////////////////////\nSinging\nSinging songs to your baby\nhelp develop language\nPlay or sing a song, and the\nfirst one to guess it right\nbecomes the next leader\nMake up a song about\nhandwashing or physical\ndistancing. Add"
+</string>
+
+    <string name="parenting_when_we_get_angry_heading">Parenting -When We Get Angry</string>
+    <string name="parenting_when_we_get_angry_1">"Stop the river\nat the source\nThe same things usually make us\nget stressed and angry every time\nWhat makes you angry? When\ndoes it happen? How do you\nnormally react?\n\nPrevent it from starting. If it\nhappens when you are tired, get\nsome sleep or rest. If it’s hunger, try\nto be sure you can eat. If it’s feeling\nalone, ask someone for support\nLook after yourself. Try the ‘take\na pause’ and ‘managing stress’\nresource sheets for ideas\n////////////////////\n\nTake a break\nWhen you start feeling angry, take\na 20-second cool down. Breathe in\nand out slowly 5 times before you\nspeak or move\nGo somewhere else for ten minutes\nto regain control of your emotions.\nIf you have safe outdoor space, go\noutside\nIf it’s a baby that won’t stop crying,\nit’s OK to leave them safely on their\nback and walk away for a bit. Call\nsomeone to calm you down. Check\non them every 5-10 minutes\n"
+</string>
+    <string name="parenting_when_we_get_angry_2">"Take care\nof yourself\nWe all need to connect. Talk to\nfriends, family, and other support\nnetworks every day\nCut back on drinking or don’t drink,\nespecially when the kids are awake\nDo you have weapons or things\nthat can be used to hit others?\nLock them up, hide them or take\nthem out of the home\nIf it’s not safe for them at home it is\nOK for children to go out to get help\nor stay somewhere else for a while\n\n/////////////////\nBrain scicence shows if you control your anger\nor do something positive you increase your\nchild’s brain development.\n\nThat’s re al success!"
+</string>
+
+    <string name="what_is_corona_heading">What is Corona Virus ?</string>
+    <string name="what_is_corona_1">"Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
+</string>
+
+    <string name="what_is_covid19_heading">What is COVID-19 ?</string>
+    <string name="what_is_covid19_1">"COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally."
+</string>
+
+    <string name="how_does_it_spread_heading">How Does Corona Virus Spread?</string>
+    <string name="how_does_it_spread">"People can catch COVID-19 from others who have the virus. The disease spreads primarily from person to person through small droplets from the nose or mouth, which are expelled when a person with COVID-19 coughs, sneezes, or speaks. These droplets are relatively heavy, do not travel far and quickly sink to the ground. People can catch COVID-19 if they breathe in these droplets from a person infected with the virus.  This is why it is important to stay at least 1 meter) away from others. These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.  People can become infected by touching these objects or surfaces, then touching their eyes, nose or mouth.  This is why it is important to wash your hands regularly with soap and water or clean with alcohol-based hand rub.\n\nWHO is assessing ongoing research on the ways that COVID-19 is spread and will continue to share updated findings."
+</string>
+
+    <string name="symptoms_of_covid19_heading">Symptoms Of COVID-19</string>
+    <string name="symptoms_of_covid19">"The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Other symptoms that are less common and may affect some patients include aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell or a rash on skin or discoloration of fingers or toes. These symptoms are usually mild and begin gradually. Some people become infected but only have very mild symptoms.\n\nMost people (about 80%) recover from the disease without needing hospital treatment. Around 1 out of every 5 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, or cancer, are at higher risk of developing serious illness.  However, anyone can catch COVID-19 and become seriously ill.  People of all ages who experience fever and/or  cough associated withdifficulty breathing/shortness of breath, chest pain/pressure, or loss of speech or movement should seek medical attention immediately. If possible, it is recommended to call the health care provider or facility first, so the patient can be directed to the right clinic"
+</string>
+
+    <string name="what_to_do_heading">What to do if you have symptoms?</string>
+    <string name="what_to_do">"    If you have minor symptoms, such as a slight cough or a mild fever, there is generally no need to seek medical care. Stay at home, self-isolate and monitor your symptoms. Follow national guidance on self-isolation.\n\nHowever, if you live in an area with malaria or dengue fever it is important that you do not ignore symptoms of fever.  Seek medical help.  When you attend the health facility wear a mask if possible, keep at least 1 metre distance from other people and do not touch surfaces with your hands. If it is a child who is sick help the child stick to this advice.\n\nSeek immediate medical care if you have difficulty breathing or pain/pressure in the chest. If possible, call your health care provider in advance, so he/she can direct you to the right health facility.
+"
+</string>
+
+    <string name="shihab_text_j4_1_heading">Be KIND to address fear during #coronavirus</string>
+    <string name="shihab_text_j4_1_1">Show empathy with those affected</string>
+    <string name="shihab_text_j4_1_2">Learn about the disease to assess the risks</string>
+    <string name="shihab_text_j4_1_3">Adopt practical measures to stay safe</string>
+
+    <string name="shihab_text_j4_2_heading">Be KIND to address stigma during #coronavirus</string>
+    <string name="shihab_text_j4_2_1">Share the latest facts &amp; avoid hyperbole</string>
+    <string name="shihab_text_j4_2_2">Show solidarity with affected people</string>
+    <string name="shihab_text_j4_2_3">Tell the stories of people who have experienced the virus</string>
+
+    <string name="shihab_text_j4_3_heading">Be KIND to support loved ones during #coronavirus</string>
+    <string name="shihab_text_j4_3_1">Check in regularly especially with those affected</string>
+    <string name="shihab_text_j4_3_2">Encourage them to keep doing what they enjoy</string>
+    <string name="shihab_text_j4_3_3">Share WHO information to manage anxieties</string>
+    <string name="shihab_text_j4_3_4">Provide calm and correct advice for your children</string>
+
+    <string name="shihab_text_j4_6_heading">Be READY for #coronavirus</string>
+    <string name="shihab_text_j4_6_1">WHO is giving advice on how to protect ourselves &amp; others:\nBe SAFE from coronavirus infection
+        \n Be SMART &amp; inform yourself about it
+        \n Be KIND &amp; support one another</string>
+
+    <string name="shihab_text_j4_7_heading">Be SAFE from #coronavirus</string>
+    <string name="shihab_text_j4_7_1">if you are 60+ or if you have an underlying condition like:\n\nCardiovascular disease</string>
+    <string name="shihab_text_j4_7_2">Respiratory condition</string>
+    <string name="shihab_text_j4_7_3"> Diabetes\n\nby avoiding crowded areas or places where you might interact with people who are sick.</string>
+
+    <string name="shihab_text_j4_8_heading">Be SMART if you develop shortness of breath:</string>
+    <string name="shihab_text_j4_8_1">Call your doctor</string>
+    <string name="shihab_text_j4_8_2">Seek care immediately!</string>
+
+    <string name="shihab_text_j4_9_heading">Be SMART &amp; inform yourself about #coronavirus</string>
+    <string name="shihab_text_j4_9_1">Follow accurate public health advice from WHO &amp; your local health authority</string>
+    <string name="shihab_text_j4_9_2">Follow the news on latest coronavirus updates</string>
+    <string name="shihab_text_j4_9_3">To avoid spreading rumors, always check the source you are getting information from</string>
+    <string name="shihab_text_j4_9_4">Don\'t spread rumors</string>
+
+    <string name="shihab_text_j4_10_heading">Home care for people with suspected or confirmed COVID-19 Take care of yourself and your family </string>
+    <string name="shihab_text_j4_10_1">For caregivers \n\n Ensure the ill person rests, drinks plenty of fluids and eats nutritious food</string>
+    <string name="shihab_text_j4_10_2">Frequently clean hands with soap and water or alcohol-based rub, especially after any type of contact
+        with the ill person or their surroundings\n\n
+        before, during and after preparing food\n\n
+        before eating\n\n
+        after using the toilets</string>
+    <string name="shihab_text_j4_10_3">Identify frequently touched surfaces by the ill person and clean and disinfect them daily</string>
+    <string name="shihab_text_j4_10_4">Wear a medical mask when in the same room with an ill person . Do not touch the mask or face during use and discard it afterward</string>
+    <string name="shihab_text_j4_10_5">Use dedicated dishes, cups, eating utensils, towels and bed linens for the ill person. Wash dishes, cups, eating utensils, towels, or bed linens used by the ill person with soap and water</string>
+    <string name="shihab_text_j4_10_6">Call your health care facility immediately if the ill person worsens or experiences difficulty breathing.</string>
+
+    <string name="shihab_text_j4_11_heading">All members of the household</string>
+    <string name="shihab_text_j4_11_1">Wash hands with soap and water regularly, especially:
+        \n * after coughing or sneezing 
+        \n * before, during and after you prepare food 
+        \n * before eating  after using the toilet 
+        \n * before and after caring for the ill person 
+        \n * when hands are visibly dirty</string>
+    <string name="shihab_text_j4_11_2">When coughing or sneezing, cover mouth and nose with flexed elbow or use a disposable tissue and discard immediately after use.</string>
+    <string name="shihab_text_j4_11_3">Avoid unnecessary exposure to the ill person and avoid sharing items, such as eating utensils, dishes, drinks and towels.</string>
+    <string name="shihab_text_j4_11_4">Monitor everyone\'s health for symptoms such as fever, cough and if difficult breathing appear, call your health care facility immediately.</string>
+
+
+    <string name="shihab_text_j4_12_heading">* For ill people *</string>
+    <string name="shihab_text_j4_12_1">If you are ill with fever and cough\n
+Clean hands frequently with soap and water or with alcohol-based hand rub:</string>
+    <string name="shihab_text_j4_12_2">Stay in a separate room from other family members, but if not possible wear a medical mask and keep a distance of at least 1 meter (3 feet) From other people. Keep the room well-ventilated and if possible use a dedicated bathroom</string>
+    <string name="shihab_text_j4_12_3">Stay at home, do not attend work, school or public places. Rest drink plenty of fluids and eat nutritious food.</string>
+    <string name="shihab_text_j4_12_4">When coughing or sneezing, cover mouth and nose with flexed elbow or use disposable tissue and discard after use If you experience difficulty breathing call your health care facility immediately.</string>
+
+    <string name="shihab_text_j4_13_heading">Coping with stress during the 2019-nCoV outbreak</string>
+    <string name="shihab_text_j4_13_1">It is normal to feel sad, stressed, confused, scared or
+angry during a crisis.
+Talking to people you trust can help. Contact your
+friends and family.</string>
+    <string name="shihab_text_j4_13_2">If you must stay at home, maintain a healthy lifestyle -
+including proper diet, sleep, exercise and social contacts
+with loved ones at home and by email and phone with
+other family and friends.</string>
+    <string name="shihab_text_j4_13_3">Don’t use smoking, alcohol or other drugs to deal with
+your emotions.
+If you feel overwhelmed, talk to a health worker or
+counsellor. Have a plan, where to go to and how to seek
+help for physical and mental health needs if required.</string>
+    <string name="shihab_text_j4_13_4">Get the facts. Gather information that will help you
+accurately determine your risk so that you can take
+reasonable precautions. Find a credible source you can
+trust such as WHO website or, a local or state public
+health agency.</string>
+    <string name="shihab_text_j4_13_5">Limit worry and agitation by lessening the time you
+and your family spend watching or listening to media
+coverage that you perceive as upsetting.</string>
+    <string name="shihab_text_j4_13_6">Draw on skills you have used in the past that have
+helped you to manage previous life’s adversities and use
+those skills to help you manage your emotions during
+the challenging time of this outbreak.</string>
+
+    <string name="shihab_text_j4_14_heading">Helping children cope with stress
+during the 2019-nCoV outbreak</string>
+    <string name="shihab_text_j4_14_1">Children may respond to stress in different ways such
+as being more clingy, anxious, withdrawing, angry or
+agitated, bedwetting etc.
+Respond to your child’s reactions in a supportive way,
+listen to their concerns and give them extra love and
+attention.</string>
+    <string name="shihab_text_j4_14_2">Children need adults’ love and attention during
+difficult times. Give them extra time and attention.
+Remember to listen to your children, speak kindly
+and reasure them.
+If possible, make opportunities for the child to
+play and relax.</string>
+    <string name="shihab_text_j4_14_3">Try and keep children close to their parents and family
+and avoid separating children and their caregivers to the
+extent possible. If separation occurs (e.g. hospitalization)
+ensure regular contact (e.g. via phone) and re-assurance.</string>
+    <string name="shihab_text_j4_14_4">Keep to regular routines and schedules as much
+as possible, or help create new ones in a new
+environment, including school/learning as well as
+time for safely playing and relaxing.</string>
+    <string name="shihab_text_j4_14_5">Provide facts about what has happened, explain what is
+going on now and give them clear information about how
+to reduce their risk of being infected by the disease in
+words that they can understand depending on their age.\n\n
+This also includes providing information about what
+could happen in a re-assuring way (e.g. a family member
+and/or the child may start not feeling well and may have
+to go to the hospital for some time so doctors can help
+them feel better).</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
